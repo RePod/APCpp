@@ -41,10 +41,10 @@ struct AP_NetworkPlayer {
 };
 
 enum struct AP_ItemFlags {
-    Filler = 0;
-    Advancement = 1;
-    Useful = 2;
-    Trap = 4;
+    Filler = 0,
+    Advancement = 1,
+    Useful = 2,
+    Trap = 4,
 };
 
 // Set current client version
