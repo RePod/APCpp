@@ -40,7 +40,7 @@ struct AP_NetworkPlayer {
     std::string game;
 };
 
-struct AP_ItemFlags {
+enum struct AP_ItemFlags {
     int Filler = 0;
     int Advancement = 1;
     int Useful = 2;
